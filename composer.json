@@ -1,8 +1,8 @@
 {
-    "name": "sylius/plugin-skeleton",
+    "name": "crevillo/sylius-redsys-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
-    "description": "Acme example plugin for Sylius.",
+    "description": "Redsys Gateway for Sylius.",
     "license": "MIT",
     "require": {
         "php": "^7.2",
@@ -37,8 +37,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Acme\\SyliusExamplePlugin\\": "src/",
-            "Tests\\Acme\\SyliusExamplePlugin\\": "tests/"
+            "Crevillo\\SyliusRedsysPlugin\\": "src/",
+            "Tests\\Crevillo\\SyliusRedsysPlugin\\": "tests/"
         }
     },
     "autoload-dev": {
